@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//git pull?
+//git pull..
 class PersonDetailViewController: UIViewController {
 
     var selectedPerson = Person(firstName: "Joe", lastName: "Jonas")
