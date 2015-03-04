@@ -28,14 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9D8089C1A9FCCC500501284 /* tableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D8089C1A9FCCC500501284 /* tableAppTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableAppTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D808A01A9FCCC500501284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D808A11A9FCCC500501284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D808A31A9FCCC500501284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9D808A61A9FCCC500501284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9D808A81A9FCCC500501284 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C9D808AB1A9FCCC500501284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C9D808B11A9FCCC500501284 /* tableAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D808B11A9FCCC500501284 /* tableAppTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableAppTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D808B61A9FCCC500501284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D808B71A9FCCC500501284 /* tableAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableAppTests.swift; sourceTree = "<group>"; };
 		C9D808C11AA018AA00501284 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -72,8 +72,8 @@
 		C9D8089D1A9FCCC500501284 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9D8089C1A9FCCC500501284 /* tableApp.app */,
-				C9D808B11A9FCCC500501284 /* tableAppTests.xctest */,
+				C9D8089C1A9FCCC500501284 /* tableAppTwo.app */,
+				C9D808B11A9FCCC500501284 /* tableAppTwoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9D8089B1A9FCCC500501284 /* tableApp */ = {
+		C9D8089B1A9FCCC500501284 /* tableAppTwo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9D808BB1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableApp" */;
+			buildConfigurationList = C9D808BB1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableAppTwo" */;
 			buildPhases = (
 				C9D808981A9FCCC500501284 /* Sources */,
 				C9D808991A9FCCC500501284 /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = tableApp;
+			name = tableAppTwo;
 			productName = tableApp;
-			productReference = C9D8089C1A9FCCC500501284 /* tableApp.app */;
+			productReference = C9D8089C1A9FCCC500501284 /* tableAppTwo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C9D808B01A9FCCC500501284 /* tableAppTests */ = {
+		C9D808B01A9FCCC500501284 /* tableAppTwoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9D808BE1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableAppTests" */;
+			buildConfigurationList = C9D808BE1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableAppTwoTests" */;
 			buildPhases = (
 				C9D808AD1A9FCCC500501284 /* Sources */,
 				C9D808AE1A9FCCC500501284 /* Frameworks */,
@@ -175,9 +175,9 @@
 			dependencies = (
 				C9D808B31A9FCCC500501284 /* PBXTargetDependency */,
 			);
-			name = tableAppTests;
+			name = tableAppTwoTests;
 			productName = tableAppTests;
-			productReference = C9D808B11A9FCCC500501284 /* tableAppTests.xctest */;
+			productReference = C9D808B11A9FCCC500501284 /* tableAppTwoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9D808971A9FCCC500501284 /* Build configuration list for PBXProject "tableApp" */;
+			buildConfigurationList = C9D808971A9FCCC500501284 /* Build configuration list for PBXProject "tableAppTwo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,8 +211,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9D8089B1A9FCCC500501284 /* tableApp */,
-				C9D808B01A9FCCC500501284 /* tableAppTests */,
+				C9D8089B1A9FCCC500501284 /* tableAppTwo */,
+				C9D808B01A9FCCC500501284 /* tableAppTwoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 /* Begin PBXTargetDependency section */
 		C9D808B31A9FCCC500501284 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9D8089B1A9FCCC500501284 /* tableApp */;
+			target = C9D8089B1A9FCCC500501284 /* tableAppTwo */;
 			targetProxy = C9D808B21A9FCCC500501284 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -370,7 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tableAppTwo;
 			};
 			name = Debug;
 		};
@@ -380,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tableAppTwo;
 			};
 			name = Release;
 		};
@@ -398,7 +398,7 @@
 				);
 				INFOPLIST_FILE = tableAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tableAppTwoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableApp.app/tableApp";
 			};
 			name = Debug;
@@ -413,7 +413,7 @@
 				);
 				INFOPLIST_FILE = tableAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tableAppTwoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableApp.app/tableApp";
 			};
 			name = Release;
@@ -421,7 +421,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9D808971A9FCCC500501284 /* Build configuration list for PBXProject "tableApp" */ = {
+		C9D808971A9FCCC500501284 /* Build configuration list for PBXProject "tableAppTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9D808B91A9FCCC500501284 /* Debug */,
@@ -430,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9D808BB1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableApp" */ = {
+		C9D808BB1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableAppTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9D808BC1A9FCCC500501284 /* Debug */,
@@ -439,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9D808BE1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableAppTests" */ = {
+		C9D808BE1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableAppTwoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9D808BF1A9FCCC500501284 /* Debug */,

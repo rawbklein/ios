@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9D8089B1A9FCCC500501284"
-               BuildableName = "tableApp.app"
-               BlueprintName = "tableApp"
-               ReferencedContainer = "container:tableApp.xcodeproj">
+               BuildableName = "tableAppTwo.app"
+               BlueprintName = "tableAppTwo"
+               ReferencedContainer = "container:tableAppTwo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9D808B01A9FCCC500501284"
-               BuildableName = "tableAppTests.xctest"
-               BlueprintName = "tableAppTests"
-               ReferencedContainer = "container:tableApp.xcodeproj">
+               BuildableName = "tableAppTwoTests.xctest"
+               BlueprintName = "tableAppTwoTests"
+               ReferencedContainer = "container:tableAppTwo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9D808B01A9FCCC500501284"
-               BuildableName = "tableAppTests.xctest"
-               BlueprintName = "tableAppTests"
-               ReferencedContainer = "container:tableApp.xcodeproj">
+               BuildableName = "tableAppTwoTests.xctest"
+               BlueprintName = "tableAppTwoTests"
+               ReferencedContainer = "container:tableAppTwo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9D8089B1A9FCCC500501284"
-            BuildableName = "tableApp.app"
-            BlueprintName = "tableApp"
-            ReferencedContainer = "container:tableApp.xcodeproj">
+            BuildableName = "tableAppTwo.app"
+            BlueprintName = "tableAppTwo"
+            ReferencedContainer = "container:tableAppTwo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9D8089B1A9FCCC500501284"
-            BuildableName = "tableApp.app"
-            BlueprintName = "tableApp"
-            ReferencedContainer = "container:tableApp.xcodeproj">
+            BuildableName = "tableAppTwo.app"
+            BlueprintName = "tableAppTwo"
+            ReferencedContainer = "container:tableAppTwo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9D8089B1A9FCCC500501284"
-            BuildableName = "tableApp.app"
-            BlueprintName = "tableApp"
-            ReferencedContainer = "container:tableApp.xcodeproj">
+            BuildableName = "tableAppTwo.app"
+            BlueprintName = "tableAppTwo"
+            ReferencedContainer = "container:tableAppTwo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
