@@ -13,6 +13,8 @@
 		C9D808A91A9FCCC500501284 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D808A81A9FCCC500501284 /* Images.xcassets */; };
 		C9D808AC1A9FCCC500501284 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D808AA1A9FCCC500501284 /* LaunchScreen.xib */; };
 		C9D808B81A9FCCC500501284 /* tableAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D808B71A9FCCC500501284 /* tableAppTests.swift */; };
+		C9D808C21AA018AA00501284 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D808C11AA018AA00501284 /* Person.swift */; };
+		C9D808C71AA4268E00501284 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D808C61AA4268E00501284 /* PersonDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C9D808B11A9FCCC500501284 /* tableAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D808B61A9FCCC500501284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D808B71A9FCCC500501284 /* tableAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableAppTests.swift; sourceTree = "<group>"; };
+		C9D808C11AA018AA00501284 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C9D808C61AA4268E00501284 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				C9D808A11A9FCCC500501284 /* AppDelegate.swift */,
-				C9D808A31A9FCCC500501284 /* ViewController.swift */,
-				C9D808A51A9FCCC500501284 /* Main.storyboard */,
+				C9D808C31AA018BB00501284 /* View */,
+				C9D808C41AA018C200501284 /* Models */,
 				C9D808A81A9FCCC500501284 /* Images.xcassets */,
+				C9D808C51AA018CB00501284 /* Controllers */,
 				C9D808AA1A9FCCC500501284 /* LaunchScreen.xib */,
 				C9D8089F1A9FCCC500501284 /* Supporting Files */,
 			);
@@ -110,6 +115,31 @@
 				C9D808B61A9FCCC500501284 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9D808C31AA018BB00501284 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9D808A51A9FCCC500501284 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C9D808C41AA018C200501284 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9D808C11AA018AA00501284 /* Person.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C9D808C51AA018CB00501284 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9D808C61AA4268E00501284 /* PersonDetailViewController.swift */,
+				C9D808A31A9FCCC500501284 /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D808C21AA018AA00501284 /* Person.swift in Sources */,
 				C9D808A41A9FCCC500501284 /* ViewController.swift in Sources */,
+				C9D808C71AA4268E00501284 /* PersonDetailViewController.swift in Sources */,
 				C9D808A21A9FCCC500501284 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +437,7 @@
 				C9D808BD1A9FCCC500501284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9D808BE1A9FCCC500501284 /* Build configuration list for PBXNativeTarget "tableAppTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				C9D808C01A9FCCC500501284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
